@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Portal</title>
+</head>
+<body>
+	<h1>Enter Your Details Here</h1><br>
+<form action="register" method="post">
+	UID:<input type="text" name="uid" id="uid"><br>
+	Name:<input type="text" name="nm" id="nm"><br>
+	Address:<input type="text" name="addr" id="addr"><br>
+	username:<input type="text" name="uname" id="unm"><br>
+	password:<input type="password" name="pass" id="pass"><br>
+	skills:
+	<input type="checkbox" name="skill" id="java" value="java">Java
+	<input type="checkbox" name="skill" id="python" value="python">Python
+	<input type="checkbox" name="skill" id="c++" value="c++">C++
+	<input type="checkbox" name="skill" id=".net" value=".net">.NET
+	<input type="checkbox" name="skill" id="perl" value="perl">Perl<br>
+	Gender:
+	<input type="radio" name="gender" id="male" value="male">Male
+	<input type="radio" name="gender" id="female" value="female">Female<br>
+	City:<select name="city" id="city">
+		<option value="pune">Pune</option>
+		<option value="mumbai">Mumbai</option>
+		<option value="patna">Patna</option>
+		<option value="gaya">Gaya</option>
+	</select><br>
+	<button type="submit" name="btn" id="btn">register</button>
+</form>
+</body>
+</html>
